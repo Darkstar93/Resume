@@ -5,6 +5,7 @@ html, body {
 }
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 /* Header Styles */
 h1 {
@@ -21,22 +22,43 @@ h1 {
 
 /* Meat and Bones */
 /* Work Experience */
+.ul {
+	padding: 12px;
+}
 .sprintxp {
 	background-image: url("../images/cell.jpeg");
 	background-image: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 150%;
+	background-size: 100%;
 	color: yellow;
-	padding: 20px;
+	text-shadow: 2px 1px 1px #4d4d4d;
+	padding: 40px;
+
+}
+#sprintlogo {
+	width: 30%;
+	height: 100%;
 }
 .mensxp {
-	background-image: url("../images/suit.jpeg");
+	background-image: url("../images/suits.jpeg");
 	background-image: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 200%;
+	background-size: 100%;
 	color: white;
-	padding: 20px;
+	padding: 40px;
+	text-shadow: 2px 1px 1px #4d4d4d;
+}
+#menslogo {
+	width: 20%;
+	height: 100%;
+}
 
+/* Education */
+#uvulogo {
+	width: 30%;
+}
+#thinklogo {
+	width: 30%;
 }
