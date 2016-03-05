@@ -6,25 +6,25 @@ html, body {
 body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
+	letter-spacing: 1px;
 }
 /* Header Styles */
 h1 {
 	font-family: 'Roboto', sans-serif;
 }
 #Title {
-	
+	margin-top: 0;
 	text-align: center;
 	border: solid 16px #4da6ff;
 	padding: 8px;
 	background-color: #4da6ff;
 	color: white;
 }
+/* Cover */
 
-/* Meat and Bones */
 /* Work Experience */
-.ul {
-	padding: 12px;
-}
+
+
 .sprintxp {
 	background-image: url("../images/cell.jpeg");
 	background-image: cover;
@@ -34,12 +34,15 @@ h1 {
 	color: yellow;
 	text-shadow: 2px 1px 1px #4d4d4d;
 	padding: 40px;
+	max-width: 100%;
+	
+
+
+	
+
 
 }
-#sprintlogo {
-	width: 30%;
-	height: 100%;
-}
+
 .mensxp {
 	background-image: url("../images/suits.jpeg");
 	background-image: cover;
@@ -49,6 +52,10 @@ h1 {
 	color: white;
 	padding: 40px;
 	text-shadow: 2px 1px 1px #4d4d4d;
+}
+#sprintlogo {
+	width: 30%;
+	height: 100%;
 }
 #menslogo {
 	width: 20%;
@@ -62,3 +69,19 @@ h1 {
 #thinklogo {
 	width: 30%;
 }
+
+
+/* Contact styles */
+
+#me {
+	text-align: none;
+}
+
+.contact {
+	
+	border: solid 16px #4da6ff;
+	padding: 8px;
+	background-color: #4da6ff;
+	color: white;
+}
+
