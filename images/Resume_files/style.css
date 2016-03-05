@@ -33,7 +33,7 @@ min-width: 40%;
 max-width: 40%;
 padding: 0px;
 padding-top: 40px;
--webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(92%, transparent), to(white));
+-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(90%, transparent), to(white));
 float: right;
 left: 8px;
 bottom: 46px;
@@ -46,9 +46,7 @@ bottom: 46px;
 	margin: 24px;
 	margin-right: 20px;
 	float: left;
-	font-size: 28px;
-	margin-bottom: 76px;
-	margin-top: 76px;
+	font-size: 24px;
 
 
 }
@@ -57,10 +55,9 @@ bottom: 46px;
 	margin-right: 26px;
 	padding-left: 36px;
 	padding-bottom: 22px;
-	width: 90%;
+	width: 100%;
 	height: 100%;
 
-	
 
 }
 /*///////// Work Experience //////////////////*/
@@ -131,13 +128,12 @@ bottom: 46px;
 
 /* Education */
 .education {
-	margin: 26px;
+	margin: 22px;
 
 }
 .uvuedu{
 	font-size: 22px;
 	padding: 28px;
-
 }
 .thinkfuledu {
 	font-size: 22px;
@@ -147,13 +143,9 @@ bottom: 46px;
 
 #uvulogo {
 	width: 30%;
-	max-width: 10%;
-	min-width: 30%;
 }
 #thinklogo {
 	width: 30%;
-	max-width: 10%;
-	min-width: 30%;
 }
 
 
@@ -179,7 +171,6 @@ bottom: 46px;
 }
 
 /* Skills With my Bowstaff */
-
 .skills {
 	margin: 22px;
 	column-count: 3;
@@ -191,9 +182,5 @@ bottom: 46px;
 	font-size: 20px;
 }
 
-
-
-
-
-
 /* Progress Bar concept */
+
