@@ -1,0 +1,42 @@
+/* Page */
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+/* Header Styles */
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+#Title {
+	
+	text-align: center;
+	border: solid 16px #4da6ff;
+	padding: 8px;
+	background-color: #4da6ff;
+	color: white;
+}
+
+/* Meat and Bones */
+/* Work Experience */
+.sprintxp {
+	background-image: url("../images/cell.jpeg");
+	background-image: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 150%;
+	color: yellow;
+	padding: 20px;
+}
+.mensxp {
+	background-image: url("../images/suit.jpeg");
+	background-image: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 200%;
+	color: white;
+	padding: 20px;
+
+}
