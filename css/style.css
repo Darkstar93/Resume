@@ -148,12 +148,12 @@ bottom: 46px;
 #uvulogo {
 	width: 30%;
 	max-width: 10%;
-	min-width: 30%;
+	min-width: 40%;
 }
 #thinklogo {
 	width: 30%;
 	max-width: 10%;
-	min-width: 30%;
+	min-width: 40%;
 }
 
 
@@ -164,7 +164,7 @@ bottom: 46px;
 }
 
 .contact {
-	
+	margin: 0;
 	border: solid 16px #4da6ff;
 	padding: 8px;
 	background-color: #4da6ff;
@@ -197,3 +197,8 @@ bottom: 46px;
 
 
 /* Progress Bar concept */
+
+#progressbar {
+	background-color: black;
+	width: 100%;
+}
