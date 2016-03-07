@@ -170,6 +170,9 @@ bottom: 46px;
 	background-color: #4da6ff;
 	color: white;
 }
+a:visted {
+
+}
 
 #infos {
 	padding: 16px;
@@ -198,10 +201,43 @@ bottom: 46px;
 
 /* Progress Bar concept */
 
-#progressbar {
-	background-color: black;
-	width: 100%;
+progress {
+	background-color: white;
+	border: 0;
+	height: 60px;
+	width: 450px;
+	border-radius: 9px;
+	font: white;
 }
+
+progress::-webkit-progress-bar {
+    background-color: green;
+	border: 0;
+	height: 60px;
+	width: 450px;
+	border-radius: 9px;
+	font: white;
+}
+progress::-webkit-progress-value {
+	background-color: white;
+	border: 0;
+	height: 60px;
+	width: 450px;
+	border-radius: 9px;
+	font: white;
+    
+}
+progress::-moz-progress-bar {
+    /* style rules */
+    background-color: white;
+	border: 0;
+	height: 60px;
+	width: 450px;
+	border-radius: 9px;
+	font: white;
+}
+
+
 
 /* Images fade? */
 /* make keyframes that tell the start state and the end state of our object */
@@ -246,7 +282,15 @@ animation-delay: 1.6s;
  /* Load scroll */
 
 .fadeInBlock {
-	opacity: 1;
+	opacity: 0;
 }
  
+/* Icons */
+.fa {
+	padding: 8px;
+	color: white;
+}
+.fa-mobile {
+	height: 
 
+}
