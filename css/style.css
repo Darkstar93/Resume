@@ -68,7 +68,10 @@ bottom: 46px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
+.tmobul {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
 .sprintul {
 	font-size: 18px;
 	margin-left: 36px;
@@ -78,6 +81,19 @@ bottom: 46px;
 	font-size: 18px;
 	margin-left: 36px;
 }
+.tmobxp {
+	background-image: url("../images/tmob2.jpeg");
+	background-image: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #ff4d94;
+	text-shadow: 1px 1px 1px #4d4d4d;
+	padding: 40px;
+	max-width: 100%;
+  	min-height: 200px;
+}
+
 .sprintxp {
 	background-image: url("../images/cell.jpeg");
 	background-image: cover;
@@ -103,6 +119,11 @@ bottom: 46px;
 }
 #sales {
 	text-shadow: 2px 1px 1px #4d4d4d;
+}
+#tmoblogo {
+	padding-bottom: 36px;
+	width: 40%;
+	height: 150%;
 }
 #sprintlogo {
 	padding-bottom: 36px;
